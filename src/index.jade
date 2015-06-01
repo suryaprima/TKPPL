@@ -92,9 +92,13 @@ html
             li 
                 b sudo ufw default allow
 
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+      section
+        h2 Konfigurasi firewall sederhana menggunakan shorewell
+        p Shorewall adalah salah satu tools firewall pada linux yang berbasiskan iptables. Shorewall terdapat konsep “zone” yang memudahkan kita untuk menentukan policy firewall, daripada kita melakukan konfigurasi secara manual dengan iptables.Maka untukmemudahkan kita, asumsikan saja ada 3 zona yang dapat di definisikan, yaitu : 
+        ul
+            li 1. LAN, yaitu jaringan lokal, kita definisikan sebagai zona lok
+            li 2. Internet, yaitu koneksi kita ke internet, kita definisikan sebagai zona net
+            li 3. Komputer Firewall kita secara otomatis bernama zona $FW
 
       section
         h2.bullet Just the beginning...
