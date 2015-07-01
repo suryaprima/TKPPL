@@ -1,0 +1,7 @@
+{
+  "name": "presentation-tkppl-jarkom",
+  "version": "0.0.0",
+  "dependencies": {
+    "prism": "gh-pages"
+  }
+}
