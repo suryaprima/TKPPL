@@ -72,10 +72,25 @@ html
             li 3.Circuit-level Gateway
                 p Tipe ketiga ini dapat merupakan sistem yang berdiri sendiri , atau juga dapat merupakan fungsi khusus yang terbentuk dari tipe application-level gateway. Tipe ini tidak mengijinkan koneksi TCP end to end.
 
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+      section
+        h2 Cara mengatur Firewall Linux
+        ul
+            li Pertama silahkan buka terminal Ubuntu anda dan silahkan ketik :
+            li Untuk menonaktifkan firewall :
+            li 
+                b sudo ufw disable
+            li Untuk mengaktifkan firewall :
+            li 
+                b sudo ufw enable
+            li Untuk mengecek status firewall :
+            li 
+                b sudo ufw status
+            li Untuk mengatur default policy Deny :
+            li 
+                b sudo ufw default deny
+            li Untuk mengatur default policy Allow :
+            li 
+                b sudo ufw default allow
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         h2 Emphatic Slide!
